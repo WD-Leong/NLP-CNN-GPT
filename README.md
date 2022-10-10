@@ -10,5 +10,10 @@ The Q, K and V operators consists of 2 operations: (i) a linear/dense layer with
 ## Training the Model
 To train the model, run the script
 ```
-python train_movie_dialog_sw_tf_cnn_gpt.py
+python train_movie_dialogs_sw_cnn_gpt.py
 ```
+and run
+```
+python infer_movie_dialogs_sw_cnn_gpt.py
+```
+to perform inference once the model has been trained. Both Tensorflow and PyTorch implementations are provided.
